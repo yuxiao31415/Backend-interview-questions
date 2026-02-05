@@ -10,12 +10,12 @@ HTTP报文分为请求报文和响应报文。
   Host：请求的服务器的域名。  
   Accept：客户端能够处理的媒体类型。   
   Accept-Encoding：客户端能够解码的编码类型。  
-  Authorization：用于认证的凭证信息，比如token数据。 
-  Content-Length：请求体的长度。 
-  Content-Type：请求体的媒体类型。 
-  Cookie：存储在客户端的cookie数据。 
-  If-None-Match：资源的ETag值，用于缓存控制。  
-  Connection：管理连接的选项，如 keep-alive。  
+  Authorization：用于认证的凭证信息，比如token数据.  
+  Content-Length：请求体的长度。  
+  Content-Type：请求体的媒体类型。  
+  Cookie：存储在客户端的cookie数据。  
+  If-None-Match：资源的ETag值，用于缓存控制。   
+  Connection：管理连接的选项，如 keep-alive。   
 3. 空行是请求头部和请求主体之间的空行，用于分隔请求头部和请求主体。
 4. 请求体通常用于 POST 和 PUT 请求，包含发送给服务器的数据。
   
