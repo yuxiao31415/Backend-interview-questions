@@ -6,7 +6,7 @@ HTTP报文分为请求报文和响应报文。
      方法（Method）：指定要执行的操作，如 GET、POST、PUT、DELETE 等。  
      资源路径（Resource Path）：请求的资源的URI（统一资源标识符）。// URL(统一资源定位符)  
      HTTP版本（HTTP Version）：使用的HTTP协议版本，如 HTTP/1.1 或 HTTP/2.0。 
-2. 请求头的字段较多，常使用的包含以下几个：
+2. 请求头的字段较多，常使用的包含以下几个：  
   Host：请求的服务器的域名。  
   Accept：客户端能够处理的媒体类型。   
   Accept-Encoding：客户端能够解码的编码类型。  
