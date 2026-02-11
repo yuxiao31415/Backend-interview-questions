@@ -1,4 +1,6 @@
-# TCP连接三次握手的过程，为什么是三次，可以是两次或者更多吗？  
+# TCP连接三次握手的过程，为什么是三次，可以是两次或者更多吗？ 
+<img width="1080" height="813" alt="image" src="https://github.com/user-attachments/assets/1e22f02a-c30f-4639-8544-50dfa9bcd8db" />  
+
 (1) 三次握手的过程   
 第一次握手：客户端向服务器发送一个SYN （同步序列编号）报文，请求建立连接，客户端进入SYN_SENT 状态。  
 第二次握手：服务器收到SYN 报文后，如果同意建立连接，则会发送一个SYN-ACK （同步确认）报文作为响应，同时进入SYN_RCVD 状态。  
