@@ -31,9 +31,8 @@ TCP 是全双工通信，要确认双方都具有收发能力
 然后服务端关闭  而客户端等待一会看最后一个ack报文是否发送给服务端    
 # HTTP的Keep-Alive是什么？TCP 的 Keepalive 和 HTTP 的 Keep-Alive 是一个东西吗？  
 HTTP 的 Keep-Alive，是由应用层实现的，称为 HTTP 长连接 :  
-每次请求都要经历这样的过程：建立 TCP连接 -> HTTP请求资源 -> 响应资源 -> 释放连接，这就是HTTP短连接，
-但是这样每次建立连接都只能请求一次资源，所以HTTP 的 Keep-Alive实现了使用同一个 TCP 连接来发送和接收多个 HTTP 请求/应答，
-避免了连接建立和释放的开销，就就是 HTTP 长连接。通过设置HTTP头Connection: keep-alive来实现。  
+实现了使用同一个 TCP 连接来发送和接收多个 HTTP 请求/应答，
+避免了连接建立和释放的开销，这就就是 HTTP 长连接。通过设置HTTP头Connection: keep-alive来实现。  
 
 TCP 的 Keepalive，是由TCP 层（内核态）实现的，称为 TCP 保活机制:  
 是一种用于在 TCP 连接上检测空闲连接状态的机制
