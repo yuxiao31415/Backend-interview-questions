@@ -35,5 +35,4 @@ HTTP 的 Keep-Alive，是由应用层实现的，称为 HTTP 长连接 :
 避免了连接建立和释放的开销，这就就是 HTTP 长连接。通过设置HTTP头Connection: keep-alive来实现。  
 
 TCP 的 Keepalive，是由TCP 层（内核态）实现的，称为 TCP 保活机制:  
-是一种用于在 TCP 连接上检测空闲连接状态的机制
 当TCP连接建立后，如果一段时间内没有任何数据传输，TCP Keepalive会发送探测包来检查连接是否仍然有效。  
