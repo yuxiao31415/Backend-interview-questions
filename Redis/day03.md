@@ -22,5 +22,6 @@ sleep(100ms)
 监听数据库 binlog：
 
 数据库更新 → 自动删除 Redis
+canal 工具
 ```
 
